@@ -1,0 +1,19 @@
+[project]
+name = "nport-holdings-viewer"
+version = "0.1.0"
+description = "Retrieve and display fund portfolio holdings from SEC Form N-PORT filings"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.111.0",
+    "httpx>=0.27.0",
+    "lxml>=5.2.0",
+    "pydantic>=2.7.0",
+    "uvicorn[standard]>=0.30.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["nport*"]
