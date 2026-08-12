@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import asyncio
 import re
+import time
 from typing import Any
 
 import httpx
@@ -47,6 +48,8 @@ class EdgarClient:
         self._client = client
         self._owns_client = client is None
         self._semaphore = asyncio.Semaphore(config.MAX_CONCURRENT_REQUESTS)
+        self._rate_lock = asyncio.Lock()
+        self._next_slot = 0.0
 
     async def __aenter__(self) -> EdgarClient:
         if self._client is None:
@@ -67,6 +70,16 @@ class EdgarClient:
             await self._client.aclose()
             self._client = None
 
+    # Space request starts so the process stays under the SEC's rate limit
+    async def _throttle(self) -> None:
+        async with self._rate_lock:
+            now = time.monotonic()
+            wait = self._next_slot - now
+            if wait > 0:
+                await asyncio.sleep(wait)
+                now = time.monotonic()
+            self._next_slot = now + config.MIN_REQUEST_INTERVAL
+
     async def _get(self, url: str) -> httpx.Response:
         if self._client is None:
             raise RuntimeError("EdgarClient must be used as an async context manager")
@@ -75,6 +88,7 @@ class EdgarClient:
         for attempt in range(config.MAX_RETRIES):
             try:
                 async with self._semaphore:
+                    await self._throttle()
                     response = await self._client.get(url)
             except httpx.TimeoutException as exc:
                 last_exc = exc

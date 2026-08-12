@@ -7,7 +7,6 @@ from nport.edgar import (
     normalize_cik,
 )
 from nport.errors import InvalidCik, NoNportFilings
-from tests.conftest import make_submissions
 
 class TestNormalizeCik:
     @pytest.mark.parametrize(

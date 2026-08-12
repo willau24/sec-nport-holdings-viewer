@@ -23,6 +23,12 @@ def series_index_url(cik: str) -> str:
     )
 
 # URL listing one series' N-PORT filings as an Atom feed
+_SERIES_ID_RE = re.compile(r"^S\d{9}$")
+
+# EDGAR series IDs are the letter S followed by nine digits.
+def is_valid_series_id(series_id: str) -> bool:
+    return bool(_SERIES_ID_RE.match(series_id.strip()))
+
 def series_filings_url(series_id: str) -> str:
     return (
         f"{BROWSE_BASE}?action=getcompany&CIK={series_id}"

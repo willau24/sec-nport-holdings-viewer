@@ -5,12 +5,14 @@ from pathlib import Path as FilePath
 from typing import AsyncIterator, Union
 
 from fastapi import FastAPI, Path, Query, Request
+from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 
 from .cache import FILING_TTL, TTLCache
 from .edgar import EdgarClient, normalize_cik
-from .errors import NportError
+from .errors import NportError, SeriesNotFound
+from .series_index import is_valid_series_id
 from .models import Filing
 from .schemas import (
     ErrorResponse,
@@ -40,6 +42,9 @@ app = FastAPI(
     version="0.1.0",
     lifespan=lifespan,
 )
+
+# Add compression to speed up fetching data
+app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 # Render pipeline errors with their message and status.
 @app.exception_handler(NportError)
@@ -75,6 +80,8 @@ async def get_fund_holdings(
 ) -> Union[HoldingsResponse, SeriesSelectionResponse]:
     # Normalize before caching so "884394" and "CIK0000884394" are the same
     normalized = normalize_cik(cik)
+    if series is not None and not is_valid_series_id(series):
+        raise SeriesNotFound()
     key = (normalized, series)
 
     async def _load() -> Union[HoldingsResponse, SeriesSelectionResponse]:

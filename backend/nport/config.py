@@ -7,6 +7,7 @@ USER_AGENT = "Will McCormick willster2424@gmail.com"
 
 # SEC caps requests at 10 req/s, so this stays comfortably under it
 MAX_CONCURRENT_REQUESTS = 5
+MIN_REQUEST_INTERVAL = 0.15
 
 CONNECT_TIMEOUT = 10.0
 
