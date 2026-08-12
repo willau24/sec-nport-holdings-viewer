@@ -159,7 +159,7 @@ export function HoldingsTable({ holdings }: Props) {
                   </div>
                   <div className="td td-balance numeric">
                     {formatQuantity(h.balance)}
-                    <span className="units">{formatUnits(h.units)}</span>
+                    <span className="units">{formatUnits(h.units, h.balance)}</span>
                   </div>
                   <div
                     className={`td td-value_usd numeric${

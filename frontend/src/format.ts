@@ -40,16 +40,18 @@ export function isNegative(value: string | null): boolean {
 }
 
 /** Units codes used in N-PORT filings. */
-const UNIT_LABELS: Record<string, string> = {
-  NS: 'shares',
-  NC: 'contracts',
-  PA: 'principal',
-  OU: 'other',
+const UNIT_LABELS: Record<string, [string, string]> = {
+  NS: ['share', 'shares'],
+  NC: ['contract', 'contracts'],
+  PA: ['principal', 'principal'],
+  OU: ['other', 'other'],
 };
 
-export function formatUnits(units: string | null): string {
+export function formatUnits(units: string | null, balance?: string | null): string {
   if (!units) return '';
-  return UNIT_LABELS[units] ?? units;
+  const label = UNIT_LABELS[units];
+  if (!label) return units;
+  return toNumber(balance ?? null) === 1 ? label[0] : label[1];
 }
 
 export function formatDate(value: string | null): string {

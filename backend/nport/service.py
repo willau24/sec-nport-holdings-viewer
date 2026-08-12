@@ -1,4 +1,5 @@
 import asyncio
+import logging
 
 from .edgar import (
     EdgarClient,
@@ -17,6 +18,8 @@ from .series_index import (
     series_filings_url,
     series_index_url,
 )
+
+logger = logging.getLogger(__name__)
 
 def _document_url(ref: FilingRef) -> str:
     return build_document_url(ref.cik, ref.accession_no_dashes, ref.primary_document)
@@ -89,12 +92,12 @@ async def resolve_series(
 # Find one fund's most recent N-PORT filing in a single request.
 async def resolve_filing_for_series(
     edgar: EdgarClient, cik: str, series_id: str
-) -> FilingRef | None:
+) -> tuple[FilingRef | None, bool]:
     try:
         content = await edgar.fetch_document(series_filings_url(series_id))
     except NportError:
-        return None
-    return parse_latest_filing(content, cik)
+        return None, False
+    return parse_latest_filing(content, cik), True
 
 # Resolve a CIK using an already-open client
 async def resolve(
@@ -104,9 +107,12 @@ async def resolve(
 
     # A specific fund was requested
     if series_id is not None:
-        ref = await resolve_filing_for_series(edgar, normalized, series_id)
+        ref, answered = await resolve_filing_for_series(edgar, normalized, series_id)
         if ref is not None:
             return await fetch_filing(edgar, ref)
+        if answered:
+            # The feed responded and listed no N-PORT filings for this fund
+            raise SeriesNotFound()
 
     filings = await _resolve_latest_filings(edgar, normalized)
 
@@ -120,6 +126,11 @@ async def resolve(
             return fast
 
     # Fall back to reading each filing's header for its series name
+    logger.warning(
+        "series index unavailable for CIK %s; falling back to %d filing fetches",
+        normalized,
+        len(filings),
+    )
     series = await _resolve_series_fallback(edgar, filings)
 
     if series_id is not None:

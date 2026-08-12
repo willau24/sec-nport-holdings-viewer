@@ -25,7 +25,7 @@ class NoNportFilings(NportError):
 class SeriesNotFound(NportError):
     status = 404
     message = (
-        "This fund has no N-PORT filings available. It may be closed, merged, "
+        "That fund has no N-PORT filings available. It may be closed, merged, "
         "or not yet required to report."
     )
 

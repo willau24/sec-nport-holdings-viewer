@@ -3,7 +3,11 @@ import { fetchHoldings, HoldingsError } from './api';
 import { HoldingsTable } from './HoldingsTable';
 import { SeriesPicker } from './SeriesPicker';
 import { formatCurrency, formatDate } from './format';
-import { isSeriesSelection, type FundResponse } from './types';
+import {
+  isSeriesSelection,
+  type FundResponse,
+  type SeriesSelectionResponse,
+} from './types';
 import './App.css';
 
 const EXAMPLES = [
@@ -16,6 +20,7 @@ export default function App() {
   const [data, setData] = useState<FundResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [picker, setPicker] = useState<SeriesSelectionResponse | null>(null);
 
   const activeCik = useRef('');
   const inflight = useRef<AbortController | null>(null);
@@ -31,11 +36,15 @@ export default function App() {
     activeCik.current = trimmed;
     setLoading(true);
     setError(null);
-    if (!seriesId) setData(null);
+    if (!seriesId) {
+      setData(null);
+      setPicker(null);
+    }
 
     try {
       const result = await fetchHoldings(trimmed, seriesId, controller.signal);
       if (controller.signal.aborted) return;
+      if (isSeriesSelection(result)) setPicker(result);
       setData(result);
     } catch (err) {
       if (err instanceof DOMException && err.name === 'AbortError') return;
@@ -44,11 +53,11 @@ export default function App() {
           ? err.message
           : 'Something went wrong. Please try again.',
       );
-      setData(null);
+      setData(seriesId && picker ? picker : null);
     } finally {
       if (!controller.signal.aborted) setLoading(false);
     }
-  }, []);
+  }, [picker]);
 
   function onSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -106,9 +115,11 @@ export default function App() {
       )}
 
       {loading && (
-        <p className="loading">
-          Fetching from SEC EDGAR… large funds can take a few seconds.
-        </p>
+        <div className="loading" role="status" aria-live="polite">
+          <div className="spinner" aria-hidden="true" />
+          <p className="loading-primary">Fetching from SEC EDGAR...</p>
+          <p className="loading-secondary">Large funds can take a few seconds</p>
+        </div>
       )}
 
       {!loading && data && isSeriesSelection(data) && (
@@ -120,6 +131,15 @@ export default function App() {
 
       {!loading && data && !isSeriesSelection(data) && (
         <section className="panel">
+          {picker && (
+            <button
+              type="button"
+              className="back-link"
+              onClick={() => setData(picker)}
+            >
+              ← Back to funds
+            </button>
+          )}
           <div className="filing-meta">
             <h2>{data.series_name ?? data.registrant_name ?? 'Fund'}</h2>
             {data.series_name && data.registrant_name && (
