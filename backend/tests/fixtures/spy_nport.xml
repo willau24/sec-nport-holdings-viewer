@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/nport" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ncom="http://www.sec.gov/edgar/nportcommon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sec.gov/edgar/nport eis_NPORT_Filer.xsd">
+  <headerData>
+    <submissionType>NPORT-P</submissionType>
+    <isConfidential>false</isConfidential>
+    <filerInfo>
+
+      <filer>
+        <issuerCredentials>
+          <cik>0000884394</cik>
+          <ccc>XXXXXXXX</ccc>
+        </issuerCredentials>
+      </filer>
+
+
+
+
+    </filerInfo>
+  </headerData>
+  <formData>
+    <genInfo>
+      <regName>State Street(R) SPDR(R) S&amp;P 500(R) ETF Trust</regName>
+      <regFileNumber>811-06125</regFileNumber>
+      <regCik>0000884394</regCik>
+      <regLei>549300NZAMSJ8FXPQQ63</regLei>
+      <regStreet1>11 WALL STREET</regStreet1>
+      <regStreet2>PDR SERVICES LLC C/O NYSE EURONEXT</regStreet2>
+      <regCity>New York</regCity>
+      <regStateConditional regCountry="US" regState="US-NY"/>
+      <regZipOrPostalCode>10005</regZipOrPostalCode>
+      <regPhone>212-656-4440</regPhone>
+      <seriesName>N/A</seriesName>
+      <seriesLei>549300NZAMSJ8FXPQQ63</seriesLei>
+      <repPdEnd>2026-09-30</repPdEnd>
+      <repPdDate>2026-03-31</repPdDate>
+      <isFinalFiling>N</isFinalFiling>
+    </genInfo>
+    <fundInfo>
+      <totAssets>653587391058.59</totAssets>
+      <totLiabs>1999121111.00</totLiabs>
+      <netAssets>651588269947.59</netAssets>
+      <assetsAttrMiscSec>0.00000000</assetsAttrMiscSec>
+      <assetsInvested>0.00000000</assetsInvested>
+      <amtPayOneYrBanksBorr>0.00000000</amtPayOneYrBanksBorr>
+      <amtPayOneYrCtrldComp>0.00000000</amtPayOneYrCtrldComp>
+      <amtPayOneYrOthAffil>0.00000000</amtPayOneYrOthAffil>
+      <amtPayOneYrOther>0.00000000</amtPayOneYrOther>
+      <amtPayAftOneYrBanksBorr>0.00000000</amtPayAftOneYrBanksBorr>
+      <amtPayAftOneYrCtrldComp>0.00000000</amtPayAftOneYrCtrldComp>
+      <amtPayAftOneYrOthAffil>0.00000000</amtPayAftOneYrOthAffil>
+      <amtPayAftOneYrOther>0.00000000</amtPayAftOneYrOther>
+      <delayDeliv>0.00000000</delayDeliv>
+      <standByCommit>0.00000000</standByCommit>
+      <liquidPref>0.00000000</liquidPref>
+      <cshNotRptdInCorD>1902383820.00000000</cshNotRptdInCorD>
+      <isNonCashCollateral>N</isNonCashCollateral>
+      <returnInfo>
+        <monthlyTotReturns>
+          <monthlyTotReturn rtn1="1.44000000" rtn2="-0.77000000" rtn3="-4.97000000"/>
+        </monthlyTotReturns>
+        <monthlyReturnCats>
+          <equityContracts>
+            <mon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+            <mon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+            <mon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+            <warrantCategory>
+              <instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+              <instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+              <instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+            </warrantCategory>
+            <otherCategory>
+              <instrMon1 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+              <instrMon2 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+              <instrMon3 netRealizedGain="0.00000000" netUnrealizedAppr="0.00000000"/>
+            </otherCategory>
+          </equityContracts>
+        </monthlyReturnCats>
+        <othMon1 netRealizedGain="9676040843.61000000" netUnrealizedAppr="-88940023.26000000"/>
+        <othMon2 netRealizedGain="9624269729.98000000" netUnrealizedAppr="-15704991775.10000000"/>
+        <othMon3 netRealizedGain="11268268861.48000000" netUnrealizedAppr="-46070768585.68000000"/>
+      </returnInfo>
+      <mon1Flow redemption="83459621316.00000000" reinvestment="0.00000000" sales="70186858179.80000000"/>
+      <mon2Flow redemption="90130610232.00000000" reinvestment="0.00000000" sales="84857982759.00000000"/>
+      <mon3Flow redemption="142021995840.05000000" reinvestment="0.00000000" sales="131174928521.70000000"/>
+
+
+
+    </fundInfo>
+    <invstOrSecs>
+      <invstOrSec>
+        <name>Aflac Inc</name>
+        <lei>549300N0B7DOGLXWPP39</lei>
+        <title>Aflac Inc</title>
+        <cusip>001055102</cusip>
+        <identifiers>
+          <isin value="US0010551028"/>
+        </identifiers>
+        <balance>5426878.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>595382785.38000000</valUSD>
+        <pctVal>0.091374079743</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>AES Corp/The</name>
+        <lei>2NUNNB7D43COUIRE5295</lei>
+        <title>AES Corp</title>
+        <cusip>00130H105</cusip>
+        <identifiers>
+          <isin value="US00130H1059"/>
+        </identifiers>
+        <balance>8396293.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>118303768.37000000</valUSD>
+        <pctVal>0.018156215178</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>AT&amp;T Inc</name>
+        <lei>549300Z40J86GGSTL398</lei>
+        <title>AT&amp;T Inc</title>
+        <cusip>00206R102</cusip>
+        <identifiers>
+          <isin value="US00206R1023"/>
+        </identifiers>
+        <balance>81517048.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2363179221.52000000</valUSD>
+        <pctVal>0.362679828737</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Abbott Laboratories</name>
+        <lei>HQD377W2YR662HK5JX27</lei>
+        <title>Abbott Laboratories</title>
+        <cusip>002824100</cusip>
+        <identifiers>
+          <isin value="US0028241000"/>
+        </identifiers>
+        <balance>20247440.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>2078804664.80000000</valUSD>
+        <pctVal>0.319036538973</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>AbbVie Inc</name>
+        <lei>FR5LCKFTG8054YNNRU85</lei>
+        <title>AbbVie Inc</title>
+        <cusip>00287Y109</cusip>
+        <identifiers>
+          <isin value="US00287Y1091"/>
+        </identifiers>
+        <balance>20585575.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>4477156706.75000000</valUSD>
+        <pctVal>0.687114380851</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Allegion plc</name>
+        <lei>984500560CAC2E6FB757</lei>
+        <title>Allegion plc</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <isin value="IE00BFRT3W74"/>
+        </identifiers>
+        <balance>1005259.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>146054080.11000000</valUSD>
+        <pctVal>0.022415087386</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>IE</invCountry>
+
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Amcor PLC</name>
+        <lei>549300GSODGFCDQ3DI89</lei>
+        <title>Amcor PLC</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <isin value="JE00BV7DQ550"/>
+        </identifiers>
+        <balance>5393594.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>214395361.50000000</valUSD>
+        <pctVal>0.032903502317</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>JE</invCountry>
+
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>Aon PLC</name>
+        <lei>635400FALWQYX5E6QC64</lei>
+        <title>Aon PLC</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <isin value="IE00BLP1HW54"/>
+        </identifiers>
+        <balance>2495104.00000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>805369669.12000000</valUSD>
+        <pctVal>0.123601007916</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>IE</invCountry>
+
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>1</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      </invstOrSecs>
+    <explntrNotes>
+
+
+
+    </explntrNotes>
+    <signature>
+      <ncom:dateSigned>2026-04-16</ncom:dateSigned>
+      <ncom:nameOfApplicant>State Street(R) SPDR(R) S&amp;P 500(R) ETF Trust</ncom:nameOfApplicant>
+      <ncom:signature>Arthur Jensen</ncom:signature>
+      <ncom:signerName>Arthur Jensen</ncom:signerName>
+      <ncom:title>Deputy Treasurer</ncom:title>
+    </signature>
+  </formData>
+</edgarSubmission>

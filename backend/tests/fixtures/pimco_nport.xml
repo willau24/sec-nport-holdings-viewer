@@ -1,0 +1,822 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/nport" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ncom="http://www.sec.gov/edgar/nportcommon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <headerData>
+    <submissionType>NPORT-P</submissionType>
+    <isConfidential>false</isConfidential>
+    <filerInfo>
+
+      <filer>
+        <issuerCredentials>
+          <cik>0000810893</cik>
+          <ccc>XXXXXXXX</ccc>
+        </issuerCredentials>
+      </filer>
+
+
+      <seriesClassInfo>
+        <seriesId>S000016548</seriesId>
+        <classId>C000046103</classId>
+        <classId>C000046098</classId>
+        <classId>C000046099</classId>
+        <classId>C000064169</classId>
+        <classId>C000200460</classId>
+        <classId>C000046101</classId>
+        <classId>C000046102</classId>
+      </seriesClassInfo>
+
+
+    </filerInfo>
+  </headerData>
+  <formData>
+    <genInfo>
+      <regName>PIMCO Funds</regName>
+      <regFileNumber>811-05028</regFileNumber>
+      <regCik>0000810893</regCik>
+      <regLei>5493003B5Y5GR0Y25Y76</regLei>
+      <regStreet1>650 Newport Center Drive</regStreet1>
+      <regCity>Newport Beach</regCity>
+      <regStateConditional regCountry="US" regState="US-CA"/>
+      <regZipOrPostalCode>92660</regZipOrPostalCode>
+      <regPhone>(888) 877-4626</regPhone>
+      <seriesName>PIMCO Income Fund</seriesName>
+      <seriesId>S000016548</seriesId>
+      <seriesLei>XSQUIHC65X62JACTUZ45</seriesLei>
+      <repPdEnd>2026-03-31</repPdEnd>
+      <repPdDate>2026-03-31</repPdDate>
+      <isFinalFiling>N</isFinalFiling>
+    </genInfo>
+    <fundInfo>
+      <totAssets>570770528653.720000</totAssets>
+      <totLiabs>345981496394.170000</totLiabs>
+      <netAssets>224789032259.550000</netAssets>
+      <assetsAttrMiscSec>0.000000</assetsAttrMiscSec>
+      <assetsInvested>0.000000</assetsInvested>
+      <amtPayOneYrBanksBorr>6159557845.610000</amtPayOneYrBanksBorr>
+      <amtPayOneYrCtrldComp>0.000000</amtPayOneYrCtrldComp>
+      <amtPayOneYrOthAffil>0.000000</amtPayOneYrOthAffil>
+      <amtPayOneYrOther>0.000000</amtPayOneYrOther>
+      <amtPayAftOneYrBanksBorr>0.000000</amtPayAftOneYrBanksBorr>
+      <amtPayAftOneYrCtrldComp>0.000000</amtPayAftOneYrCtrldComp>
+      <amtPayAftOneYrOthAffil>0.000000</amtPayAftOneYrOthAffil>
+      <amtPayAftOneYrOther>0.000000</amtPayAftOneYrOther>
+      <delayDeliv>1893350351.888503</delayDeliv>
+      <standByCommit>0.000000</standByCommit>
+      <liquidPref>0.000000</liquidPref>
+      <cshNotRptdInCorD>705051952.960000</cshNotRptdInCorD>
+      <curMetrics>
+        <curMetric>
+          <curCd>EUR</curCd>
+          <intrstRtRiskdv01 period10Yr="-1868080.087210" period1Yr="1894551.004596" period30Yr="-2451064.376130" period3Mon="129665.882211" period5Yr="1299165.844569"/>
+          <intrstRtRiskdv100 period10Yr="-158173403.348980" period1Yr="203614411.219706" period30Yr="-214505312.725544" period3Mon="12931956.229441" period5Yr="155337329.236621"/>
+        </curMetric>
+        <curMetric>
+          <curCd>ZAR</curCd>
+          <intrstRtRiskdv01 period10Yr="249317.864386" period1Yr="284784.055011" period30Yr="0.000000" period3Mon="14433.804146" period5Yr="887835.589059"/>
+          <intrstRtRiskdv100 period10Yr="23828181.973099" period1Yr="28027855.385168" period30Yr="0.000000" period3Mon="1438323.750158" period5Yr="85829597.879924"/>
+        </curMetric>
+        <curMetric>
+          <curCd>CLP</curCd>
+          <intrstRtRiskdv01 period10Yr="10014.822205" period1Yr="9276.705839" period30Yr="0.000000" period3Mon="0.000000" period5Yr="43218.965591"/>
+          <intrstRtRiskdv100 period10Yr="961090.554407" period1Yr="908580.972590" period30Yr="0.000000" period3Mon="0.000000" period5Yr="4185954.931756"/>
+        </curMetric>
+        <curMetric>
+          <curCd>KZT</curCd>
+          <intrstRtRiskdv01 period10Yr="0.000000" period1Yr="437.593519" period30Yr="0.000000" period3Mon="0.000000" period5Yr="163.909582"/>
+          <intrstRtRiskdv100 period10Yr="0.000000" period1Yr="43064.839523" period30Yr="0.000000" period3Mon="0.000000" period5Yr="16130.814433"/>
+        </curMetric>
+        <curMetric>
+          <curCd>NGN</curCd>
+          <intrstRtRiskdv01 period10Yr="0.000000" period1Yr="55358.823207" period30Yr="0.000000" period3Mon="45596.631104" period5Yr="0.000000"/>
+          <intrstRtRiskdv100 period10Yr="0.000000" period1Yr="5503431.917146" period30Yr="0.000000" period3Mon="4536135.286888" period5Yr="0.000000"/>
+        </curMetric>
+        <curMetric>
+          <curCd>NZD</curCd>
+          <intrstRtRiskdv01 period10Yr="0.000000" period1Yr="86442.819603" period30Yr="0.000000" period3Mon="0.000000" period5Yr="70014.769738"/>
+          <intrstRtRiskdv100 period10Yr="0.000000" period1Yr="8481831.600271" period30Yr="0.000000" period3Mon="0.000000" period5Yr="6869899.537947"/>
+        </curMetric>
+        <curMetric>
+          <curCd>TRY</curCd>
+          <intrstRtRiskdv01 period10Yr="0.000000" period1Yr="71175.192076" period30Yr="0.000000" period3Mon="47507.322203" period5Yr="96.151129"/>
+          <intrstRtRiskdv100 period10Yr="0.000000" period1Yr="7063668.783892" period30Yr="0.000000" period3Mon="4727403.533246" period5Yr="9508.959616"/>
+        </curMetric>
+        <curMetric>
+          <curCd>GBP</curCd>
+          <intrstRtRiskdv01 period10Yr="11201389.532183" period1Yr="1601484.871591" period30Yr="445878.797307" period3Mon="-41802.191816" period5Yr="3396989.667035"/>
+          <intrstRtRiskdv100 period10Yr="1050242771.127753" period1Yr="157220253.486535" period30Yr="43705943.773454" period3Mon="-4039529.344446" period5Yr="331055673.200681"/>
+        </curMetric>
+        <curMetric>
+          <curCd>AUD</curCd>
+          <intrstRtRiskdv01 period10Yr="2648801.485663" period1Yr="467901.359482" period30Yr="0.000000" period3Mon="34065.401446" period5Yr="4014504.785605"/>
+          <intrstRtRiskdv100 period10Yr="252946066.221388" period1Yr="45777368.290076" period30Yr="0.000000" period3Mon="3378995.714150" period5Yr="384807156.738020"/>
+        </curMetric>
+        <curMetric>
+          <curCd>CAD</curCd>
+          <intrstRtRiskdv01 period10Yr="-151119.243346" period1Yr="60956.854989" period30Yr="-118695.301626" period3Mon="3314.675034" period5Yr="27140.650477"/>
+          <intrstRtRiskdv100 period10Yr="-13426042.438333" period1Yr="6028763.673053" period30Yr="-10653608.312068" period3Mon="328393.430661" period5Yr="2622735.511586"/>
+        </curMetric>
+        <curMetric>
+          <curCd>COP</curCd>
+          <intrstRtRiskdv01 period10Yr="130243.842188" period1Yr="190333.635764" period30Yr="0.000000" period3Mon="0.000000" period5Yr="657577.191802"/>
+          <intrstRtRiskdv100 period10Yr="12371358.106857" period1Yr="18681594.526874" period30Yr="0.000000" period3Mon="0.000000" period5Yr="63457283.639848"/>
+        </curMetric>
+        <curMetric>
+          <curCd>BRL</curCd>
+          <intrstRtRiskdv01 period10Yr="0.000000" period1Yr="554993.424470" period30Yr="0.000000" period3Mon="389677.194461" period5Yr="782264.348682"/>
+          <intrstRtRiskdv100 period10Yr="0.000000" period1Yr="54600240.755676" period30Yr="0.000000" period3Mon="38709592.265289" period5Yr="76288288.650232"/>
+        </curMetric>
+        <curMetric>
+          <curCd>EGP</curCd>
+          <intrstRtRiskdv01 period10Yr="0.000000" period1Yr="139419.204696" period30Yr="0.000000" period3Mon="206.563728" period5Yr="78497.001852"/>
+          <intrstRtRiskdv100 period10Yr="0.000000" period1Yr="13720501.036551" period30Yr="0.000000" period3Mon="20578.150349" period5Yr="7703254.013023"/>
+        </curMetric>
+        <curMetric>
+          <curCd>PEN</curCd>
+          <intrstRtRiskdv01 period10Yr="313966.459732" period1Yr="27246.967699" period30Yr="0.000000" period3Mon="0.000000" period5Yr="962766.821336"/>
+          <intrstRtRiskdv100 period10Yr="29844517.054315" period1Yr="2650205.130935" period30Yr="0.000000" period3Mon="0.000000" period5Yr="93019920.485085"/>
+        </curMetric>
+        <curMetric>
+          <curCd>CZK</curCd>
+          <intrstRtRiskdv01 period10Yr="3615.581294" period1Yr="0.000000" period30Yr="0.000000" period3Mon="0.000000" period5Yr="3446.101078"/>
+          <intrstRtRiskdv100 period10Yr="342595.492954" period1Yr="0.000000" period30Yr="0.000000" period3Mon="0.000000" period5Yr="326536.344178"/>
+        </curMetric>
+        <curMetric>
+          <curCd>USD</curCd>
+          <intrstRtRiskdv01 period10Yr="23178795.441348" period1Yr="16584371.315409" period30Yr="3061353.112656" period3Mon="67437.724995" period5Yr="65743690.971299"/>
+          <intrstRtRiskdv100 period10Yr="2290326616.947589" period1Yr="2149694590.845994" period30Yr="312642460.106682" period3Mon="12587032.708653" period5Yr="7201956672.812778"/>
+        </curMetric>
+        <curMetric>
+          <curCd>MXN</curCd>
+          <intrstRtRiskdv01 period10Yr="30520.890461" period1Yr="184981.560927" period30Yr="0.000000" period3Mon="34.416834" period5Yr="381092.701570"/>
+          <intrstRtRiskdv100 period10Yr="2974866.616575" period1Yr="18196512.164997" period30Yr="0.000000" period3Mon="3421.719004" period5Yr="37121124.048677"/>
+        </curMetric>
+        <curMetric>
+          <curCd>JPY</curCd>
+          <intrstRtRiskdv01 period10Yr="1514677.715226" period1Yr="-1592346.379576" period30Yr="2357594.512168" period3Mon="-32417.919633" period5Yr="-2389729.453730"/>
+          <intrstRtRiskdv100 period10Yr="123733627.430738" period1Yr="-156100574.871809" period30Yr="205096379.354233" period3Mon="-3225466.049152" period5Yr="-232436120.399852"/>
+        </curMetric>
+      </curMetrics>
+      <creditSprdRiskInvstGrade period10Yr="11364548.951000" period1Yr="23930552.714300" period30Yr="-2270064.406600" period3Mon="10468549.059400" period5Yr="62278335.390000"/>
+      <creditSprdRiskNonInvstGrade period10Yr="2757241.621800" period1Yr="3396482.268800" period30Yr="425509.703700" period3Mon="4824500.303700" period5Yr="8672502.996700"/>
+      <isNonCashCollateral>N</isNonCashCollateral>
+      <returnInfo>
+        <monthlyTotReturns>
+          <monthlyTotReturn classId="C000046103" rtn1="0.570610" rtn2="1.325545" rtn3="-2.470270"/>
+          <monthlyTotReturn classId="C000046098" rtn1="0.558053" rtn2="1.313091" rtn3="-2.482703"/>
+          <monthlyTotReturn classId="C000046099" rtn1="0.495450" rtn2="1.250454" rtn3="-2.545135"/>
+          <monthlyTotReturn classId="C000064169" rtn1="0.583075" rtn2="1.338091" rtn3="-2.457748"/>
+          <monthlyTotReturn classId="C000200460" rtn1="0.578890" rtn2="1.333909" rtn3="-2.461892"/>
+          <monthlyTotReturn classId="C000046101" rtn1="0.537216" rtn2="1.292182" rtn3="-2.503513"/>
+          <monthlyTotReturn classId="C000046102" rtn1="0.591447" rtn2="1.346454" rtn3="-2.449459"/>
+        </monthlyTotReturns>
+        <monthlyReturnCats>
+          <creditContracts>
+            <mon1 netRealizedGain="-23544508.75" netUnrealizedAppr="84209045.05"/>
+            <mon2 netRealizedGain="-4939726.590000" netUnrealizedAppr="-104168746.920000"/>
+            <mon3 netRealizedGain="-65608029.340000" netUnrealizedAppr="-193309223.940000"/>
+            <swapCategory>
+              <instrMon1 netRealizedGain="-23544508.75" netUnrealizedAppr="84209045.05"/>
+              <instrMon2 netRealizedGain="-4939726.590000" netUnrealizedAppr="-104168746.920000"/>
+              <instrMon3 netRealizedGain="-65608029.340000" netUnrealizedAppr="-193309223.940000"/>
+            </swapCategory>
+          </creditContracts>
+          <equityContracts>
+            <mon1 netRealizedGain="0.00" netUnrealizedAppr="1791862.57"/>
+            <mon2 netRealizedGain="0.000000" netUnrealizedAppr="-1098925.530000"/>
+            <mon3 netRealizedGain="0.000000" netUnrealizedAppr="2462441.600000"/>
+            <warrantCategory>
+              <instrMon1 netRealizedGain="0.00" netUnrealizedAppr="1791862.57"/>
+              <instrMon2 netRealizedGain="0.000000" netUnrealizedAppr="-1098925.530000"/>
+              <instrMon3 netRealizedGain="0.000000" netUnrealizedAppr="2462441.600000"/>
+            </warrantCategory>
+          </equityContracts>
+          <foreignExchgContracts>
+            <mon1 netRealizedGain="76840039.51" netUnrealizedAppr="-266524350.21"/>
+            <mon2 netRealizedGain="-41125105.240000" netUnrealizedAppr="361646604.200000"/>
+            <mon3 netRealizedGain="49260570.720000" netUnrealizedAppr="310584674.790000"/>
+            <forwardCategory>
+              <instrMon1 netRealizedGain="76840039.51" netUnrealizedAppr="-268672830.81"/>
+              <instrMon2 netRealizedGain="-41125105.240000" netUnrealizedAppr="358367312.600000"/>
+              <instrMon3 netRealizedGain="49260570.720000" netUnrealizedAppr="307760698.890000"/>
+            </forwardCategory>
+            <optionCategory>
+              <instrMon1 netRealizedGain="0.00" netUnrealizedAppr="2148480.60"/>
+              <instrMon2 netRealizedGain="0.000000" netUnrealizedAppr="3279291.600000"/>
+              <instrMon3 netRealizedGain="0.000000" netUnrealizedAppr="2823975.900000"/>
+            </optionCategory>
+          </foreignExchgContracts>
+          <interestRtContracts>
+            <mon1 netRealizedGain="558750952.22" netUnrealizedAppr="-668705002.90"/>
+            <mon2 netRealizedGain="145922292.880000" netUnrealizedAppr="-217278937.980000"/>
+            <mon3 netRealizedGain="-314766143.230000" netUnrealizedAppr="-1502422764.410000"/>
+            <futureCategory>
+              <instrMon1 netRealizedGain="300.62" netUnrealizedAppr="-316637454.97"/>
+              <instrMon2 netRealizedGain="449627367.960000" netUnrealizedAppr="882664672.100000"/>
+              <instrMon3 netRealizedGain="90571749.090000" netUnrealizedAppr="-2133669659.810000"/>
+            </futureCategory>
+            <optionCategory>
+              <instrMon1 netRealizedGain="0.00" netUnrealizedAppr="9133440.02"/>
+              <instrMon2 netRealizedGain="0.000000" netUnrealizedAppr="1867334.980000"/>
+              <instrMon3 netRealizedGain="0.000000" netUnrealizedAppr="-1143310.910000"/>
+            </optionCategory>
+            <swaptionCategory>
+              <instrMon1 netRealizedGain="0.00" netUnrealizedAppr="2582396.91"/>
+              <instrMon2 netRealizedGain="0.000000" netUnrealizedAppr="-14451517.250000"/>
+              <instrMon3 netRealizedGain="965.080000" netUnrealizedAppr="8199981.490000"/>
+            </swaptionCategory>
+            <swapCategory>
+              <instrMon1 netRealizedGain="558750651.60" netUnrealizedAppr="-363783384.86"/>
+              <instrMon2 netRealizedGain="-303705075.080000" netUnrealizedAppr="-1087359427.810000"/>
+              <instrMon3 netRealizedGain="-405338857.400000" netUnrealizedAppr="624190224.820000"/>
+            </swapCategory>
+          </interestRtContracts>
+        </monthlyReturnCats>
+        <othMon1 netRealizedGain="231002180.32" netUnrealizedAppr="669036374.50"/>
+        <othMon2 netRealizedGain="294578337.390000" netUnrealizedAppr="1797534371.190000"/>
+        <othMon3 netRealizedGain="-555376276.730000" netUnrealizedAppr="-4977391531.470000"/>
+      </returnInfo>
+      <mon1Flow redemption="3694121662.510000" reinvestment="979005235.980000" sales="7335145337.270000"/>
+      <mon2Flow redemption="2868315871.500000" reinvestment="999647604.760000" sales="7194617177.970000"/>
+      <mon3Flow redemption="4735383404.070000" reinvestment="893749099.270000" sales="5688944528.450000"/>
+
+
+      <varInfo>
+
+
+      </varInfo>
+    </fundInfo>
+    <invstOrSecs>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>BOUGHT CAD SOLD USD 20260504</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal ID" value="26CUKBB42B9"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="CAD" exchangeRt="1.389100"/>
+        <valUSD>132.670000</valUSD>
+        <pctVal>0.0000001</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>CA</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED</counterpartyName>
+              <counterpartyLei>JHE42UYNWWTJB8YTTU19</counterpartyLei>
+            </counterparties>
+            <amtCurSold>50160.230000</amtCurSold>
+            <curSold>USD</curSold>
+            <amtCurPur>69861.210000</amtCurPur>
+            <curPur>CAD</curPur>
+            <settlementDt>2026-05-04</settlementDt>
+            <unrealizedAppr>132.670000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>BOUGHT BRL SOLD USD 20260702</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal ID" value="26CPKBCDX1H"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="BRL" exchangeRt="5.286600"/>
+        <valUSD>4108622.530000</valUSD>
+        <pctVal>0.0018278</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>BR</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>Goldman Sachs Bank USA</counterpartyName>
+              <counterpartyLei>KD3XUN7C6T14HNAYLU02</counterpartyLei>
+            </counterparties>
+            <amtCurSold>248664560.000000</amtCurSold>
+            <curSold>USD</curSold>
+            <amtCurPur>1336323345.440000</amtCurPur>
+            <curPur>BRL</curPur>
+            <settlementDt>2026-07-02</settlementDt>
+            <unrealizedAppr>4108622.530000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>INTELSAT SA</name>
+        <lei>549300YV2L21F4K80V46</lei>
+        <title>SES S A COMMON STOCK</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <isin value="USL8176HAF75"/>
+        </identifiers>
+        <balance>7981591.000000</balance>
+        <units>NS</units>
+        <curCd>USD</curCd>
+        <valUSD>119723865.000000</valUSD>
+        <pctVal>0.0532605</pctVal>
+        <payoffProfile>Long</payoffProfile>
+        <assetCat>EC</assetCat>
+        <issuerCat>CORP</issuerCat>
+        <invCountry>LU</invCountry>
+
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>3</fairValLevel>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>IRS ZAR 8.05750 01/07/25-6Y CME</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <isin value="EZRGM8BPMT84"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="ZAR" exchangeRt="16.921300"/>
+        <valUSD>618520.610000</valUSD>
+        <pctVal>0.0002752</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DIR</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>ZA</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <swapDeriv derivCat="SWP">
+            <counterparties>
+              <counterpartyName>CHICAGO MERCANTILE EXCHANGE</counterpartyName>
+              <counterpartyLei>SNZ2OJLFK8MNNCLQOF39</counterpartyLei>
+            </counterparties>
+            <descRefInstrmnt>
+              <otherRefInst>
+                <issuerName>N/A</issuerName>
+                <issueTitle>SAFE South Africa Johannesburg Interbank Agreed Rate 3 Month</issueTitle>
+                <identifiers>
+                  <other otherDesc="Internal_ID" value="SWU02E799-SAFE South Africa Johannesburg Interbank Agreed Rate 3 Month"/>
+                </identifiers>
+              </otherRefInst>
+            </descRefInstrmnt>
+            <swapFlag>Y</swapFlag>
+            <fixedRecDesc amount="0.000000" curCd="ZAR" fixedOrFloating="Fixed" fixedRt="8.057500"/>
+            <floatingPmntDesc curCd="ZAR" fixedOrFloating="Floating" floatingRtIndex="SAFE South Africa Johannesburg Interbank Agreed Rate 3 Month" floatingRtSpread="0.000000" pmntAmt="0.000000">
+              <rtResetTenors>
+                <rtResetTenor rateTenor="Month" rateTenorUnit="3" resetDt="Month" resetDtUnit="3"/>
+              </rtResetTenors>
+            </floatingPmntDesc>
+            <terminationDt>2031-01-07</terminationDt>
+            <upfrontPmnt>0.000000</upfrontPmnt>
+            <pmntCurCd>ZAR</pmntCurCd>
+            <upfrontRcpt>0.000000</upfrontRcpt>
+            <rcptCurCd>ZAR</rcptCurCd>
+            <notionalAmt>551100000.000000</notionalAmt>
+            <curCd>ZAR</curCd>
+            <unrealizedAppr>618520.610000</unrealizedAppr>
+          </swapDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>SOLD COP BOUGHT USD 20260713</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal ID" value="26CGKBB5CJK"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="COP" exchangeRt="3756.611400"/>
+        <valUSD>-450975.030000</valUSD>
+        <pctVal>-0.0002006</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>CO</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>Citibank, National Association</counterpartyName>
+              <counterpartyLei>E57ODZWZ7FF32TWEFA76</counterpartyLei>
+            </counterparties>
+            <amtCurSold>105874285078.300000</amtCurSold>
+            <curSold>COP</curSold>
+            <amtCurPur>27732479.000000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-07-13</settlementDt>
+            <unrealizedAppr>-450975.030000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>COLOMBIA LA SP BPS</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <isin value="EZXKWXGHTDT1"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <curCd>USD</curCd>
+        <valUSD>-6689.360000</valUSD>
+        <pctVal>-0.000003</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DCR</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <swapDeriv derivCat="SWP">
+            <counterparties>
+              <counterpartyName>BNP PARIBAS</counterpartyName>
+              <counterpartyLei>R0MUWSFPU8MPRO8K5P83</counterpartyLei>
+            </counterparties>
+            <descRefInstrmnt>
+              <otherRefInst>
+                <issuerName>COLOMBIAN GOVT</issuerName>
+                <issueTitle>COLOMBIA (REP OF) GLBL UNSUBORDINATED</issueTitle>
+                <identifiers>
+                  <isin value="US195325BB02"/>
+                </identifiers>
+              </otherRefInst>
+            </descRefInstrmnt>
+            <swapFlag>Y</swapFlag>
+            <fixedRecDesc amount="0.000000" curCd="USD" fixedOrFloating="Fixed" fixedRt="1.000000"/>
+            <otherPmntDesc fixedOrFloating="Other">Single Leg Swap</otherPmntDesc>
+            <terminationDt>2027-06-20</terminationDt>
+            <upfrontPmnt>0.000000</upfrontPmnt>
+            <pmntCurCd>USD</pmntCurCd>
+            <upfrontRcpt>-2287162.740000</upfrontRcpt>
+            <rcptCurCd>USD</rcptCurCd>
+            <notionalAmt>47700000.000000</notionalAmt>
+            <curCd>USD</curCd>
+            <unrealizedAppr>2280473.380000</unrealizedAppr>
+          </swapDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>BOUGHT ILS SOLD USD 20260610</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal ID" value="26CIKBBSL75"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="ILS" exchangeRt="3.137600"/>
+        <valUSD>-181025.230000</valUSD>
+        <pctVal>-0.0000805</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>IL</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>BANK OF AMERICA CORPORATION</counterpartyName>
+              <counterpartyLei>9DJT3UXIJIZJI4WXO774</counterpartyLei>
+            </counterparties>
+            <amtCurSold>29171246.050000</amtCurSold>
+            <curSold>USD</curSold>
+            <amtCurPur>90960000.000000</amtCurPur>
+            <curPur>ILS</curPur>
+            <settlementDt>2026-06-10</settlementDt>
+            <unrealizedAppr>-181025.230000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>RFR USD SOFR/3.89600 01/08/25-10Y LCH</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <isin value="EZKP2JSHK8F5"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <curCd>USD</curCd>
+        <valUSD>828511.360000</valUSD>
+        <pctVal>0.0003686</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DIR</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <swapDeriv derivCat="SWP">
+            <counterparties>
+              <counterpartyName>LONDON CLEARING HOUSE</counterpartyName>
+              <counterpartyLei>F226TOH6YD6XJB17KS62</counterpartyLei>
+            </counterparties>
+            <descRefInstrmnt>
+              <otherRefInst>
+                <issuerName>N/A</issuerName>
+                <issueTitle>USD-SOFR-COMPOUND</issueTitle>
+                <identifiers>
+                  <other otherDesc="Internal_ID" value="SWU02E4N1-USD-SOFR-COMPOUND"/>
+                </identifiers>
+              </otherRefInst>
+            </descRefInstrmnt>
+            <swapFlag>Y</swapFlag>
+            <fixedRecDesc amount="0.000000" curCd="USD" fixedOrFloating="Fixed" fixedRt="3.896000"/>
+            <floatingPmntDesc curCd="USD" fixedOrFloating="Floating" floatingRtIndex="United States SOFR Secured Overnight Financing Rate" floatingRtSpread="0.000000" pmntAmt="0.000000">
+              <rtResetTenors>
+                <rtResetTenor rateTenor="Day" rateTenorUnit="1" resetDt="Day" resetDtUnit="1"/>
+              </rtResetTenors>
+            </floatingPmntDesc>
+            <terminationDt>2035-01-08</terminationDt>
+            <upfrontPmnt>0.000000</upfrontPmnt>
+            <pmntCurCd>USD</pmntCurCd>
+            <upfrontRcpt>-345680.000000</upfrontRcpt>
+            <rcptCurCd>USD</rcptCurCd>
+            <notionalAmt>119200000.000000</notionalAmt>
+            <curCd>USD</curCd>
+            <unrealizedAppr>1174191.360000</unrealizedAppr>
+          </swapDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>BOUGHT AUD SOLD USD 20260402</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal ID" value="26CNKBBQPDZ"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="AUD" exchangeRt="1.449400"/>
+        <valUSD>-2265553.780000</valUSD>
+        <pctVal>-0.0010079</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>AU</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>BNP PARIBAS</counterpartyName>
+              <counterpartyLei>R0MUWSFPU8MPRO8K5P83</counterpartyLei>
+            </counterparties>
+            <amtCurSold>103223894.590000</amtCurSold>
+            <curSold>USD</curSold>
+            <amtCurPur>146327000.000000</amtCurPur>
+            <curPur>AUD</curPur>
+            <settlementDt>2026-04-02</settlementDt>
+            <unrealizedAppr>-2265553.780000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>IRS EUR 2.82700 05/06/24-5Y LCH</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <isin value="EZGDV8QKBGN4"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="EUR" exchangeRt="0.865200"/>
+        <valUSD>2158730.010000</valUSD>
+        <pctVal>0.0009603</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DIR</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>N/A</invCountry>
+
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <swapDeriv derivCat="SWP">
+            <counterparties>
+              <counterpartyName>LONDON CLEARING HOUSE</counterpartyName>
+              <counterpartyLei>F226TOH6YD6XJB17KS62</counterpartyLei>
+            </counterparties>
+            <descRefInstrmnt>
+              <otherRefInst>
+                <issuerName>N/A</issuerName>
+                <issueTitle>Euribor 6 Month ACT/360</issueTitle>
+                <identifiers>
+                  <other otherDesc="Internal_ID" value="SWU024SM9-Euribor 6 Month ACT/360"/>
+                </identifiers>
+              </otherRefInst>
+            </descRefInstrmnt>
+            <swapFlag>Y</swapFlag>
+            <fixedRecDesc amount="0.000000" curCd="EUR" fixedOrFloating="Fixed" fixedRt="2.827000"/>
+            <floatingPmntDesc curCd="EUR" fixedOrFloating="Floating" floatingRtIndex="Euribor 6 Month ACT/360" floatingRtSpread="0.000000" pmntAmt="0.000000">
+              <rtResetTenors>
+                <rtResetTenor rateTenor="Month" rateTenorUnit="6" resetDt="Month" resetDtUnit="6"/>
+              </rtResetTenors>
+            </floatingPmntDesc>
+            <terminationDt>2029-05-06</terminationDt>
+            <upfrontPmnt>0.000000</upfrontPmnt>
+            <pmntCurCd>EUR</pmntCurCd>
+            <upfrontRcpt>-174879.640000</upfrontRcpt>
+            <rcptCurCd>EUR</rcptCurCd>
+            <notionalAmt>114400000.000000</notionalAmt>
+            <curCd>EUR</curCd>
+            <unrealizedAppr>2333609.650000</unrealizedAppr>
+          </swapDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>SOLD BRL BOUGHT USD 20261002</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <other otherDesc="Internal ID" value="26CHKBCG9H7"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <currencyConditional curCd="BRL" exchangeRt="5.403100"/>
+        <valUSD>-36824.290000</valUSD>
+        <pctVal>-0.0000164</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DFE</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>BR</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <fwdDeriv derivCat="FWD">
+            <counterparties>
+              <counterpartyName>BANCO SANTANDER S.A.</counterpartyName>
+              <counterpartyLei>5493006QMFDDMYWIAM13</counterpartyLei>
+            </counterparties>
+            <amtCurSold>2150218000.000000</amtCurSold>
+            <curSold>BRL</curSold>
+            <amtCurPur>397926918.410000</amtCurPur>
+            <curPur>USD</curPur>
+            <settlementDt>2026-10-02</settlementDt>
+            <unrealizedAppr>-36824.290000</unrealizedAppr>
+          </fwdDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      <invstOrSec>
+        <name>N/A</name>
+        <lei>N/A</lei>
+        <title>RFR USD SOFR/3.73000 08/03/23-10Y LCH</title>
+        <cusip>000000000</cusip>
+        <identifiers>
+          <isin value="EZ1K3X5C8LD0"/>
+        </identifiers>
+        <balance>1.000000</balance>
+        <units>NC</units>
+        <curCd>USD</curCd>
+        <valUSD>-147780.150000</valUSD>
+        <pctVal>-0.0000657</pctVal>
+        <payoffProfile>N/A</payoffProfile>
+        <assetCat>DIR</assetCat>
+        <issuerConditional desc="See item: C.11.b counterparty" issuerCat="OTHER"/>
+        <invCountry>US</invCountry>
+        <isRestrictedSec>N</isRestrictedSec>
+
+        <fairValLevel>2</fairValLevel>
+        <derivativeInfo>
+          <swapDeriv derivCat="SWP">
+            <counterparties>
+              <counterpartyName>LONDON CLEARING HOUSE</counterpartyName>
+              <counterpartyLei>F226TOH6YD6XJB17KS62</counterpartyLei>
+            </counterparties>
+            <descRefInstrmnt>
+              <otherRefInst>
+                <issuerName>N/A</issuerName>
+                <issueTitle>USD-SOFR-COMPOUND</issueTitle>
+                <identifiers>
+                  <other otherDesc="Internal_ID" value="SWU01WJZ9-USD-SOFR-COMPOUND"/>
+                </identifiers>
+              </otherRefInst>
+            </descRefInstrmnt>
+            <swapFlag>Y</swapFlag>
+            <fixedRecDesc amount="0.000000" curCd="USD" fixedOrFloating="Fixed" fixedRt="3.730000"/>
+            <floatingPmntDesc curCd="USD" fixedOrFloating="Floating" floatingRtIndex="United States SOFR Secured Overnight Financing Rate" floatingRtSpread="0.000000" pmntAmt="0.000000">
+              <rtResetTenors>
+                <rtResetTenor rateTenor="Day" rateTenorUnit="1" resetDt="Day" resetDtUnit="1"/>
+              </rtResetTenors>
+            </floatingPmntDesc>
+            <terminationDt>2033-08-03</terminationDt>
+            <upfrontPmnt>0.000000</upfrontPmnt>
+            <pmntCurCd>USD</pmntCurCd>
+            <upfrontRcpt>-583677.550000</upfrontRcpt>
+            <rcptCurCd>USD</rcptCurCd>
+            <notionalAmt>59500000.000000</notionalAmt>
+            <curCd>USD</curCd>
+            <unrealizedAppr>435897.400000</unrealizedAppr>
+          </swapDeriv>
+        </derivativeInfo>
+        <securityLending>
+          <isCashCollateral>N</isCashCollateral>
+          <isNonCashCollateral>N</isNonCashCollateral>
+          <isLoanByFund>N</isLoanByFund>
+        </securityLending>
+      </invstOrSec>
+      </invstOrSecs>
+    <explntrNotes>
+      <explntrNote note="Total returns do not deduct sales loads and redemption fees." noteItem="B.5.a"/>
+
+      <explntrNote note="To the extent an instrument's maturity date, termination date, expiration date, or settlement date does not exist or is not available as of period end, and is required for reporting, the registrant will disclose 12/31/2500." noteItem="C.11.c.vi"/>
+      <explntrNote note="A negative balance, which may be due to such circumstances as a net overdraft as of the reporting period-end, is reported as $0 in Item B.2.f - Cash and cash equivalents not reported in Parts C and D.  This is done in order to conform to the technical constraints of the XML type, which do not allow negative values in B.2.f." noteItem="B.2.f"/>
+      <explntrNote note="To the extent an instrument's maturity date, termination date, expiration date, or settlement date does not exist or is not available as of period end, and is required for reporting, the registrant will disclose 12/31/2500." noteItem="C.11.d.iii"/>
+      <explntrNote note="To the extent an instrument's maturity date, termination date, expiration date, or settlement date does not exist or is not available as of period end, and is required for reporting, the registrant will disclose 12/31/2500." noteItem="C.11.e.iii"/>
+      <explntrNote note="The form requires the filer to report ISO country codes and certain supranational entities are not on the ISO country code list.  Instruments issued by or economic exposure to a supranational entity may be disclosed as N/A." noteItem="C.5.a"/>
+      <explntrNote note="To the extent an instrument's maturity date, termination date, expiration date, or settlement date does not exist or is not available as of period end, and is required for reporting, the registrant will disclose 12/31/2500." noteItem="C.11.f.ii"/>
+    </explntrNotes>
+    <signature>
+      <ncom:dateSigned>2026-05-26</ncom:dateSigned>
+      <ncom:nameOfApplicant>PIMCO Funds</ncom:nameOfApplicant>
+      <ncom:signature>/s/ Bijal Parikh</ncom:signature>
+      <ncom:signerName>Bijal Parikh</ncom:signerName>
+      <ncom:title>Treasurer</ncom:title>
+    </signature>
+  </formData>
+</edgarSubmission>
